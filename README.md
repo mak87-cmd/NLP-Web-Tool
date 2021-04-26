@@ -1,10 +1,5 @@
 # NLP Web Tool
 
-# Table of Contents
-  ## Project Description (#project-description)
-  ## Technologies (#technologies)
-  ## Setup (#setup)
-
 ## Project Description
 
 This is a Natural Language Processing project using the sentiment analysis API from MeaningCloud. The user enters a URL for a website and the server returns the results from the sentiment analysis API. If something other than a URL is entered, the server returns "Invalid URL."
