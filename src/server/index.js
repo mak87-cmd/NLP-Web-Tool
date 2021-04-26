@@ -35,7 +35,13 @@ app.post('/', async function (req, res) {
 
     const response = await fetch("https://api.meaningcloud.com/sentiment-2.1", requestOptions)
     const data = await response.json()
-    res.send(data)
+    const filteredData = {
+        agreement: data.agreement,
+        confidence: data.confidence,
+        subjectivity: data.subjectivity,
+        irony: data.irony
+    }
+    res.send(filteredData)
 })
 // designates what port the app will listen to for incoming requests
 app.listen(8081, function () {
