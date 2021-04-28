@@ -1,9 +1,11 @@
+import { isUrl } from './urlValidation'
+
 function handleSubmit(event) {
     event.preventDefault()
 
     // check what text was put into the form field
     const formUrl = document.getElementById('userUrl').value
-    if (is_url(formUrl)) {
+    if (isUrl(formUrl)) {
         console.log("::: Form Submitted :::")
         const formdata = new FormData();
         formdata.append("url", formUrl);
