@@ -1,13 +1,16 @@
-# NLP Web Tool
+# NLP-Web-Tool
 
-## Project Description
+## Description
 
-This is a Natural Language Processing project using the sentiment analysis API from MeaningCloud. The user enters a URL for a website and the server returns the results from the sentiment analysis API. If something other than a URL is entered, the server returns "Invalid URL."
+This is the fourth project in the Udacity course. The purpose of this project is to use the sentiment analysis MeaningCloud API and user input -a URL for a website and the server returns the results from the sentiment analysis API. If input that is not a URL is entered, the server returns "Invalid URL."
 
 ## Technologies
 
-The NLP Web Tool uses JavaScript with dev dependencies including loaders and plug ins. Some of these include: Webpack, Express, Sass loader, Jest, Babel loader, Cors, CSS loader, style loader, the node sass dependency and HTML webpack plug in.
-
-## Setup
-
-This web tool runs using npm. The user start this web tool by using npm start.
+- SCSS
+- HTML
+- JavaScript
+- Node
+- Express
+- Babel
+- Jest
+- Webpack
